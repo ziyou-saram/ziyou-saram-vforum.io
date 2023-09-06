@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>V Международного Форума Энергосбережения</title>
+    <title>V Международный форум энергосбережения</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
 </head>
@@ -35,25 +35,25 @@
                 <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
                 <div x-cloak :class="[isOpen ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full']" class="absolute inset-x-0 z-20 w-full bg-white px-6 py-4 shadow-md transition-all duration-300 ease-in-out dark:bg-gray-900 lg:relative lg:top-0 lg:mt-0 lg:flex lg:w-auto lg:translate-x-0 lg:items-center lg:bg-transparent lg:p-0 lg:opacity-100 lg:shadow-none lg:dark:bg-transparent">
                 <div class="lg:-px-8 flex flex-col space-y-4 lg:mt-0 lg:flex-row lg:space-y-0">
-                    <a class="transform text-gray-700 transition-colors duration-300 hover:text-transparent bg-clip-text bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 dark:text-gray-200 dark:text-gray-200 dark:hover:text-blue-400 lg:mx-8" href="#">О мероприятии</a>
-                    <a class="transform text-gray-700 transition-colors duration-300 hover:text-transparent bg-clip-text bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 dark:text-gray-200 dark:text-gray-200 dark:hover:text-blue-400 lg:mx-8" href="./program.html">Программа</a>
-                    <a class="transform text-gray-700 transition-colors duration-300 hover:text-transparent bg-clip-text bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 dark:text-gray-200 dark:text-gray-200 dark:hover:text-blue-400 lg:mx-8" href="./speakers.html">Спикеры</a>
-                    <a class="transform text-gray-700 transition-colors duration-300 hover:text-transparent bg-clip-text bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 dark:text-gray-200 dark:text-gray-200 dark:hover:text-blue-400 lg:mx-8" href="#">Партнеры</a>
-                    <a class="transform text-gray-700 transition-colors duration-300 hover:text-transparent bg-clip-text bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 dark:text-gray-200 dark:hover:text-blue-400 lg:mx-8" href="#">Новости</a>
+                    <a class="transform text-gray-700 transition-colors duration-300 hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400 dark:text-gray-200 dark:text-gray-200 dark:hover:text-blue-400 lg:mx-8" href="#">О мероприятии</a>
+                    <a class="transform text-gray-700 transition-colors duration-300 hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400 dark:text-gray-200 dark:text-gray-200 dark:hover:text-blue-400 lg:mx-8" href="./program.html">Программа</a>
+                    <a class="transform text-gray-700 transition-colors duration-300 hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400 dark:text-gray-200 dark:text-gray-200 dark:hover:text-blue-400 lg:mx-8" href="./speakers.html">Спикеры</a>
+                    <a class="transform text-gray-700 transition-colors duration-300 hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400 dark:text-gray-200 dark:text-gray-200 dark:hover:text-blue-400 lg:mx-8" href="#">Партнеры</a>
+                    <a class="transform text-gray-700 transition-colors duration-300 hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400 dark:text-gray-200 dark:hover:text-blue-400 lg:mx-8" href="#">Новости</a>
                     <div>
                         <div class="flex justify-center">
                             <div x-data="{ dropdownOpen: false }" class="relative mx-12">
                               <button @click="dropdownOpen = !dropdownOpen" class="relative block focus:outline-none">
-                                <h1 class="text-transparent bg-clip-text bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500">Қаз/Eng</h1>
+                                <h1 class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">Қаз/Eng</h1>
                               </button>
                             
                               <div x-show="dropdownOpen" @click="dropdownOpen = false" class="fixed inset-0 h-full w-full z-10"></div>
                             
                               <div x-show="dropdownOpen" class="absolute right-0 mt-2 py-2 space-y-3 w-48 rounded-md z-20">
-                                <a href="#" class="block px-4 py-2 text-sm capitalize text-white rounded rounded-xl bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 shadow-xl">
+                                <a href="#" class="block px-4 py-2 text-sm capitalize text-white rounded rounded-xl bg-gradient-to-r from-blue-400 to-emerald-400 shadow-xl">
                                   Қазақ тілі
                                 </a>
-                                <a href="#" class="block px-4 py-2 text-sm capitalize text-white rounded rounded-xl bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 shadow-xl">
+                                <a href="#" class="block px-4 py-2 text-sm capitalize text-white rounded rounded-xl bg-gradient-to-r from-blue-400 to-emerald-400 shadow-xl">
                                   English
                                 </a>
                               </div>
@@ -62,20 +62,20 @@
                     </div>
                     
                 </div>
-                <!-- <a class="mt-4 block rounded-lg bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 px-6 py-2.5 text-center font-medium capitalize leading-5 text-white hover:bg-blue-500 lg:mt-0 lg:w-auto" href="#"> Регистрация </a> -->
+                <!-- <a class="mt-4 block rounded-lg bg-gradient-to-r from-blue-400 to-emerald-400 px-6 py-2.5 text-center font-medium capitalize leading-5 text-white hover:bg-blue-500 lg:mt-0 lg:w-auto" href="#"> Регистрация </a> -->
                 </div>
             </nav>
         
             <div class="container mx-auto px-6 py-16 text-center">
                 <section>
                     <div class="container flex flex-col items-center px-4 py-8 mx-auto text-center md:px-10 lg:px-32 xl:max-w-7xl">
-                        <h1 class="mb-12 text-left text-4xl font-bold leading sm:text-7xl">V Международного Форума Энергосбережения</h1>
-                        <h2 class="mb-12 text-left text-3xl font-bold leading sm:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500">- Энергоэффективность, как приоритет преодоления энергетического кризиса -</h2>
+                        <h1 class="mb-12 text-left text-4xl font-bold leading sm:text-7xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">V Международный форум энергосбережения</h1>
+                        <h2 class="mb-12 text-left text-3xl font-bold leading sm:text-5xl text-gray-800">Энергоэффективность, как приоритет преодоления энергетического кризиса</h2>
                         <div class="flex flex-wrap items-start sm:justify-center">
                             <!-- <button class="px-8 py-3 m-2 text-lg font-semibold rounded dark:bg-violet-400 dark:text-gray-900">Подробнее</button> -->
-                            <!-- <button class="px-8 py-3 m-2 text-white text-lg bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 rounded rounded-xl dark:text-gray-50 dark:border-gray-700">Участвовать</button> -->
+                            <!-- <button class="px-8 py-3 m-2 text-white text-lg bg-gradient-to-r from-blue-400 to-emerald-400 rounded rounded-xl dark:text-gray-50 dark:border-gray-700">Участвовать</button> -->
                             <div x-data="{ modelOpen: false }">
-                                <button @click="modelOpen =!modelOpen" class="flex items-center justify-center px-3 py-2 space-x-2 text-sm tracking-wide text-white capitalize transition-colors duration-200 transform bg-indigo-500 rounded-md dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:bg-indigo-700 hover:bg-indigo-600 focus:outline-none focus:bg-indigo-500 focus:ring focus:ring-indigo-300 focus:ring-opacity-50">
+                                <button @click="modelOpen =!modelOpen" class="flex items-center justify-center px-3 py-2 space-x-2 text-sm tracking-wide text-white capitalize transition-colors duration-200 transform bg-gradient-to-r from-blue-400 to-emerald-400 rounded-md dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:bg-indigo-700 hover:bg-indigo-600 focus:outline-none focus:bg-indigo-500 focus:ring focus:ring-indigo-300 focus:ring-opacity-50">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
                                         <path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd" />
                                     </svg>
@@ -140,7 +140,7 @@
                                                 </div>
                                                 
                                                 <div class="flex justify-end mt-6">
-                                                    <button type="button" class="px-3 py-2 text-sm tracking-wide text-white capitalize transition-colors duration-200 transform bg-indigo-500 rounded-md dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:bg-indigo-700 hover:bg-indigo-600 focus:outline-none focus:bg-indigo-500 focus:ring focus:ring-indigo-300 focus:ring-opacity-50">
+                                                    <button type="button" class="px-3 py-2 text-sm tracking-wide text-white capitalize transition-colors duration-200 transform bg-gradient-to-r from-blue-400 to-emerald-400 rounded-md dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:bg-indigo-700 hover:bg-indigo-600 focus:outline-none focus:bg-indigo-500 focus:ring focus:ring-indigo-300 focus:ring-opacity-50">
                                                         Отправить форму
                                                     </button>
                                                 </div>
@@ -172,7 +172,7 @@
     <section>
         <section class="p-6 dark:bg-gray-800 dark:text-gray-100">
             <div class="container grid justify-center grid-cols-1 mx-auto text-center lg:grid-cols-8">
-                <div class="py-8 flex flex-col lg:col-span-4 justify-center text-left px-8 m-2 lg:m-2 bg-white shadow shadow-lg rounded rounded-xl bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500">
+                <div class="py-8 flex flex-col lg:col-span-4 justify-center text-left px-8 m-2 lg:m-2 bg-white shadow shadow-lg rounded rounded-xl bg-gradient-to-r from-blue-400 to-emerald-400">
                     <p class="text-sm text-white sm:text-5xl">Дата проведения</p>
                     <p class="text-4xl text-white font-bold leadi lg:text-8xl">10 Ноября</p>
                     <!-- <p class="text-sm text-white sm:text-5xl">Дата проведения</p> -->
@@ -182,7 +182,7 @@
                     <p class="text-sm text-black sm:text-6xl">Astana</p>
                 </div>
                 <div class="py-8 flex flex-col lg:col-span-2 justify-center m-2 lg:m-2 bg-white shadow shadow-lg rounded rounded-xl py-4">
-                    <p class="text-4xl font-bold leading lg:text-8xl">70+</p>
+                    <p class="text-4xl font-bold leading lg:text-8xl">7+</p>
                     <p class="text-sm sm:text-6xl">Стран</p>
                 </div>
                 <div class="py-8 flex flex-col lg:col-span-3 justify-center m-2 lg:m-2 bg-white shadow shadow-lg rounded rounded-xl">
@@ -193,7 +193,7 @@
                     <p class="text-4xl font-bold leadi lg:text-6xl">20+</p>
                     <p class="text-sm sm:text-base">Спикеров</p>
                 </div>
-                <div class="flex flex-col lg:col-span-2 justify-center items-center m-2 lg:m-2 bg-white shadow shadow-lg rounded rounded-xl bg-gradient-to-r from-indigo-500 via-fuchsia-500 to-rose-400">
+                <div class="flex flex-col lg:col-span-2 justify-center items-center m-2 lg:m-2 bg-white shadow shadow-lg rounded rounded-xl bg-gradient-to-r from-blue-400 to-emerald-400">
                     <img src="./img/unemdeu_white.svg" alt="" class="w-48 py-8">
                     <!-- <p class="text-4xl font-bold leadi lg:text-6xl">200+</p>
                     <p class="text-sm sm:text-base">Спикеров</p> -->
@@ -212,7 +212,7 @@
                     <div class="flex flex-col text-center pb-8">
                         <h1 class="mb-4 text-6xl font-extrabold pb-4 leading-none tracking-tight text-gray-900 md:text-8xl lg:text-9xl dark:text-white">Спикеры</h1>
                         <div>
-                            <a href="./speakers.html" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 rounded-lg  focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                            <a href="./speakers.html" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-gradient-to-r from-blue-400 to-emerald-400 rounded-lg  focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                                 Все спикеры
                                     <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -223,49 +223,49 @@
     
                     <!-- Team Members -->
                     <div class="flex flex-wrap items-center justify-center lg:space-x-12">
-                        <!-- Member #1 -->
-                        <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-2 py-2 sm:px-6 lg:px-4 sm:py-6 lg:py-4 bg-white rounded rounded-xl shadow-xl">
-                            <div class="flex flex-col">
-                                <!-- Avatar -->
-                                <a href="#" class="mx-auto">
-                                    <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                        src="https://astanafindays.org/wp-content/uploads/2023/06/turlov-timur1-1.jpg">
-                                </a>
-    
-                                <!-- Details -->
-                                <div class="text-center mt-6">
-                                    <!-- Name -->
-                                    <h1 class="text-gray-900 text-xl font-bold mb-1">
-                                        Тимур Турлов
-                                    </h1>
-    
-                                    <!-- Title -->
-                                    <div class="text-gray-700 font-light">
-                                        Главный исполнительный директор Freedom Holding Corp
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-    
                         <!-- Member #2 -->
                         <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-2 py-2 sm:px-6 lg:px-4 sm:py-6 lg:py-4 bg-white rounded rounded-xl shadow-xl">
                             <div class="flex flex-col">
                                 <!-- Avatar -->
                                 <a href="#" class="mx-auto">
                                     <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                        src="https://astanafindays.org/wp-content/uploads/2023/05/christina-doros_visa_photo-1.jpg">
+                                        src="https://uploads.interfax.kz/20210226_Nariman_MANNAPBEKOV.jpg">
                                 </a>
     
                                 <!-- Details -->
                                 <div class="text-center mt-6">
                                     <!-- Name -->
                                     <h1 class="text-gray-900 text-xl font-bold mb-1">
-                                        Кристина Дорош
+                                        Нариман Маннапбеков
                                     </h1>
     
                                     <!-- Title -->
                                     <div class="text-gray-700 font-light mb-2">
-                                        Вице-президент Visa, региональный менеджер в странах Центральной Азии и Азербайджане
+                                        Директор Представительства Азиатского Банка Развития в Казахстане
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Member #1 -->
+                        <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-2 py-2 sm:px-6 lg:px-4 sm:py-6 lg:py-4 bg-white rounded rounded-xl shadow-xl">
+                            <div class="flex flex-col">
+                                <!-- Avatar -->
+                                <a href="#" class="mx-auto">
+                                    <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                                        src="https://img.kapital.kz/d4xAbG1vTAM/bG9jYWw6Ly8vZi82L2IvYS84LzE3Mjk2MTAwNzA5ZGU5OTJlNjY5YTM1MTkzZi5qcGc">
+                                </a>
+    
+                                <!-- Details -->
+                                <div class="text-center mt-6">
+                                    <!-- Name -->
+                                    <h1 class="text-gray-900 text-xl font-bold mb-1">
+                                        Канат Шарлапаев
+                                    </h1>
+    
+                                    <!-- Title -->
+                                    <div class="text-gray-700 font-light">
+                                        Председатель Правления НУХ «Байтерек»
                                     </div>
                                 </div>
                             </div>
@@ -277,19 +277,19 @@
                                 <!-- Avatar -->
                                 <a href="#" class="mx-auto">
                                     <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                        src="https://astanafindays.org/wp-content/uploads/2023/04/rafal_trepka-1.jpg">
+                                        src="https://www.dena.de/fileadmin/_processed_/8/b/csm_3500px_Kristina__Haverkamp_09.08.2022_c__Goetz_Schleser_490_5302196868.jpg">
                                 </a>
     
                                 <!-- Details -->
                                 <div class="text-center mt-6">
                                     <!-- Name -->
                                     <h1 class="text-gray-900 text-xl font-bold mb-1">
-                                        Рафал Трэпка
+                                        Кристина Хаверкамп
                                     </h1>
     
                                     <!-- Title -->
                                     <div class="text-gray-700 font-light mb-2">
-                                        Генеральный директор Mastercard в Центральной Азии
+                                        Управляющий директор, Немецкое энергетическое агентство Дена
                                     </div>
                                 </div>
                             </div>
